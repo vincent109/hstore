@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+.add {
+	background: url(../images/add.gif) no-repeat !important;
+}
+
+.edit {
+	background: url(../images/edit.gif) no-repeat !important;
+}
+
+.delete {
+	background: url(../images/delete.gif) no-repeat !important;
+}
+
+.male {
+	background: url(../images/user.gif) no-repeat !important;
+}
+
+.female {
+	background: url(../images/user_female.gif) no-repeat !important;
+}
+
+.view {
+	background: url(../images/view.png) no-repeat !important;
+}
+.search {
+	background: url(../images/search.gif) no-repeat !important;
+}
+.reset {
+	background: url(../images/reset.png) no-repeat !important;
+}
+.help {
+	background: url(../images/information.png) no-repeat !important;
+}
+
+.submit {
+	background: url(../images/accept.gif) no-repeat !important;
+}
+.cancel {
+	background: url(../images/cross.gif) no-repeat !important;
+}
+
+.pdf {
+	background: url(../images/pdf.gif) no-repeat !important;
+}
+.execl {
+	background: url(../images/execl.gif) no-repeat !important;
+}

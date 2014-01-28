@@ -1,0 +1,67 @@
+/* style rows on mouseover */
+.x-grid-row-over .x-grid-cell-inner {
+    font-weight: bold;
+}
+/* shared styles for the ActionColumn icons */
+.x-action-col-cell img {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+/* custom icon for the "buy" ActionColumn icon */
+.x-action-col-cell img.buy-col {
+    background-image: url(../images/fam/accept.png);
+}
+/* custom icon for the "alert" ActionColumn icon */
+.x-action-col-cell img.alert-col {
+    background-image: url(../images/fam/error.png);
+}
+
+.x-ie6 .x-action-col-cell img.buy-col {
+    background-image: url(../images/fam/accept.gif);
+}
+.x-ie6.x-action-col-cell img.alert-col {
+    background-image: url(../images/fam/error.gif);
+}
+
+.x-ie6 .x-action-col-cell img {
+    position:relative;
+    top:-1px;
+}
+.x-grid-cell.changeplus
+{
+    background-color: #42E61A;
+}
+.x-grid-cell.changediv
+{
+    background-color: #F79709;
+}
+.row-s .x-grid-cell{
+    background-color : pink !important;
+}
+
+.row-f .x-grid-cell{
+    background-color: green !important;
+}
+/*
+*设定textfield样式
+*/
+/* .x-form-field-f{
+	background-color:blue;
+}
+
+.x-form-empty-field{
+	background-color:green;
+}
+.x-form-text{
+	background-color:red;
+} */
+.x-form-text,textarea.x-form-field {
+	padding: 1px 3px;
+	background: repeat-x 0 0;
+	border: 1px solid;
+	background-color: white;
+	background-image:
+		url('../../resources/themes/images/gray/form/text-bg.gif');
+	border-color: blue;
+}
